@@ -1,38 +1,49 @@
-# ip-tracker
+# Frontend Mentor - IP address tracker solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Recommended IDE Setup
+## Table of contents
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 
-## Recommended Browser Setup
+## Overview
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### The challenge
 
-## Customize configuration
+Users should be able to:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements on the page
+- See their own IP address on the map on the initial page load
+- Search for any IP addresses or domains and see the key information and location
 
-## Project Setup
+### Screenshot
 
-```sh
-npm install
-```
+![](./screenshot.png)
 
-### Compile and Hot-Reload for Development
+### Links
 
-```sh
-npm run dev
-```
+- Solution URL: [https://github.com/telemoca/ip-tracker](https://github.com/telemoca/ip-tracker)
+- Live Site URL: [https://ip-tracker-chi-lovat.vercel.app/](https://ip-tracker-chi-lovat.vercel.app/)
 
-### Compile and Minify for Production
+## My process
 
-```sh
-npm run build
-```
+I built first the API part, then the Vue structure, then the styling, and then media queries for mobile.
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Media queries
+- [Vue.js](https://vuejs.org/) - JS library
+
+### What I learned
+
+I learned how to use APIs with fetch, and how to make a map in JS
